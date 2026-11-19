@@ -21,6 +21,9 @@ unverified until it is checked against source code, a real run or a log.
 - Treat every path in `scripts/protected-paths.txt` as pre-supplied
   infrastructure. In particular, do not edit `pages/VariantLocator.kt` or add
   fallback locator attempts.
+- Full policy: see `AI_POLICY.md`. Proof is an attached fresh run with a non-zero test count, never an exit code alone.
+- Code, JUnit XML and logs are the source of truth, not README or SKILL.md prose.
+- Report `blocked` or `unverified` instead of `done` when a prerequisite or a check is missing.
 
 ## Product and backend
 
